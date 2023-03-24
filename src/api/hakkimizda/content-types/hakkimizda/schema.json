@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "hakkimizdas",
+  "info": {
+    "singularName": "hakkimizda",
+    "pluralName": "hakkimizdas",
+    "displayName": "Hakkimizda"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Icerik": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
+    },
+    "Baslik": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
